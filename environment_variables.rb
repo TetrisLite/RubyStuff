@@ -8,3 +8,5 @@ puts ENV["USERS"]
 puts ENV["USER"]
 
 week_and_numbers = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", 100, 200, 300]
+
+# we going to work on each, select, reject, collect
