@@ -28,3 +28,15 @@ collection_result = numericals.collect do |numerical|
 end
 
 p collection_result
+
+overall = week_and_numbers.reject do |day_or_number|
+  day_or_number.kind_of?(String)
+end
+
+p overall
+
+show = week_and_numbers.find do |day_or_number|
+  day_or_number.kind_of?(Fixnum)
+end
+
+puts show
