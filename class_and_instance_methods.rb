@@ -1,4 +1,3 @@
-=begin
 class Computer
   attr_accessor :ports, :display, :number_of_keys, :processor_type
   @@trackpad = true
@@ -79,7 +78,7 @@ comp = {ports: 4, display: "vdu", number_of_keys: 128, processor: "intel i7"}
 
 @better_computer = BetterComputer.new(comp)
 puts @better_computer.usb_ports
-=end
+
 
 
 class SupremeComputer
