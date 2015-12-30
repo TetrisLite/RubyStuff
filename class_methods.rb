@@ -14,7 +14,7 @@ puts Chores.throw_bin_away
 class Delivery
   class << self
     def one_day_delivery
-      "quickly to your door"
+      "Quickly to your door"
     end
 
     def normal_business_days
@@ -23,4 +23,12 @@ class Delivery
   end
 end
 
+class Roof
+  def Roof.tiles
+    "Old style mororrcan"
+  end
+end
+
 puts Delivery.one_day_delivery
+
+puts Roof.tiles
