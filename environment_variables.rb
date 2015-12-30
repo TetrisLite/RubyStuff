@@ -6,9 +6,3 @@ puts ENV['PATH']
 puts ENV["MACHINE"]
 puts ENV["USERS"]
 puts ENV["USER"]
-
-new_path = "etc/india"
-
-ENV["PATH"].frozen?
-ENV["PATH"] += new_path
-puts ENV["PATH"]
