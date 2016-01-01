@@ -1,0 +1,4 @@
+dvdrental:
+  adapter: postgresql
+  username: okeTester
+  database: dvdrental
