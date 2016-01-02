@@ -1,0 +1,10 @@
+dvdrental:
+  adapter: postgresql
+  username: okeTester
+  database: dvdrental
+
+
+FIFA:
+  adapter: postgresql
+  username: okeTester
+  database: FIFA
