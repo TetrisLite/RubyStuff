@@ -9,6 +9,7 @@ class DvdRentalConnection < ActiveRecord::Base
   self.establish_connection(get_file(:database)["dvdrental"])
 end
 
+
 # puts DvdRentalConnection.connection.active?
 # p DvdRentalConnection.connection.tables
 

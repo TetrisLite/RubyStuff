@@ -8,7 +8,7 @@ ActiveRecord::Base.establish_connection(
   :host     => "localhost",
   :username => "postgres",
   :password => "",
-  :database => "dvdrental"
+  :database => "FIFA"
 )
 puts ActiveRecord::Base.connection.active?
 p ActiveRecord::Base.connection.execute("SELECT * FROM customer")[2]
