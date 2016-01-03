@@ -1,30 +1,317 @@
 [
-	{
-		color: "red",
-		value: "#f00"
-	},
-	{
-		color: "green",
-		value: "#0f0"
-	},
-	{
-		color: "blue",
-		value: "#00f"
-	},
-	{
-		color: "cyan",
-		value: "#0ff"
-	},
-	{
-		color: "magenta",
-		value: "#f0f"
-	},
-	{
-		color: "yellow",
-		value: "#ff0"
-	},
-	{
-		color: "black",
-		value: "#000"
-	}
+  {
+    "_id": "568807b1a5d07f1bc191a67b",
+    "index": 0,
+    "guid": "80cbb930-ad4d-46ef-953f-e05269870047",
+    "isActive": false,
+    "balance": "$3,031.79",
+    "picture": "http://placehold.it/32x32",
+    "age": 20,
+    "eyeColor": "brown",
+    "name": "Young Osborn",
+    "gender": "male",
+    "company": "COFINE",
+    "email": "youngosborn@cofine.com",
+    "phone": "+1 (953) 538-3918",
+    "address": "685 Lawrence Avenue, Walker, Kansas, 3680",
+    "about": "Incididunt excepteur cupidatat non aliquip est magna eiusmod ut exercitation quis et pariatur cillum dolore. Irure occaecat nulla esse nisi mollit excepteur laborum est nisi Lorem aliqua ullamco elit. Nulla Lorem deserunt mollit aliquip et Lorem esse voluptate excepteur adipisicing elit non ex.\r\n",
+    "registered": "2014-06-27T03:08:46 -01:00",
+    "latitude": 61.001162,
+    "longitude": -137.784949,
+    "tags": [
+      "id",
+      "quis",
+      "labore",
+      "adipisicing",
+      "aliqua",
+      "nisi",
+      "ea"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Romero Le"
+      },
+      {
+        "id": 1,
+        "name": "Louella Pacheco"
+      },
+      {
+        "id": 2,
+        "name": "Allie Tran"
+      }
+    ],
+    "greeting": "Hello, Young Osborn! You have 6 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "568807b18c69ec4935e381ef",
+    "index": 1,
+    "guid": "8e275410-2205-4f1e-a2eb-2b7620c86f97",
+    "isActive": true,
+    "balance": "$3,980.06",
+    "picture": "http://placehold.it/32x32",
+    "age": 25,
+    "eyeColor": "green",
+    "name": "Chang Cabrera",
+    "gender": "male",
+    "company": "ACCUFARM",
+    "email": "changcabrera@accufarm.com",
+    "phone": "+1 (987) 456-2968",
+    "address": "690 Broome Street, Felt, Georgia, 7207",
+    "about": "Minim aliqua deserunt tempor veniam dolor pariatur. Id exercitation officia deserunt enim tempor ea ad voluptate deserunt non. Adipisicing duis ex minim fugiat occaecat adipisicing cupidatat id consequat pariatur.\r\n",
+    "registered": "2015-02-27T06:56:57 -00:00",
+    "latitude": 46.234658,
+    "longitude": -113.029795,
+    "tags": [
+      "consectetur",
+      "veniam",
+      "consectetur",
+      "veniam",
+      "dolore",
+      "ut",
+      "excepteur"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Marissa Ryan"
+      },
+      {
+        "id": 1,
+        "name": "Lelia Tucker"
+      },
+      {
+        "id": 2,
+        "name": "James Mitchell"
+      }
+    ],
+    "greeting": "Hello, Chang Cabrera! You have 1 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "568807b1fc2f3b3240f4bb30",
+    "index": 2,
+    "guid": "3deaf94f-38fc-491e-8856-fdb6d03743df",
+    "isActive": false,
+    "balance": "$2,931.72",
+    "picture": "http://placehold.it/32x32",
+    "age": 35,
+    "eyeColor": "green",
+    "name": "Hahn Rogers",
+    "gender": "male",
+    "company": "OPTIQUE",
+    "email": "hahnrogers@optique.com",
+    "phone": "+1 (912) 498-3573",
+    "address": "988 Stewart Street, Frizzleburg, Iowa, 3221",
+    "about": "Tempor cupidatat ea velit cupidatat. Consequat cillum enim minim mollit velit incididunt ex est enim tempor. Pariatur eiusmod amet in labore et irure ut sit cillum aliqua aliquip cillum.\r\n",
+    "registered": "2015-12-28T02:07:16 -00:00",
+    "latitude": -72.011883,
+    "longitude": -177.312112,
+    "tags": [
+      "irure",
+      "exercitation",
+      "magna",
+      "ex",
+      "incididunt",
+      "quis",
+      "ut"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Lillian Jacobson"
+      },
+      {
+        "id": 1,
+        "name": "Sonja Carpenter"
+      },
+      {
+        "id": 2,
+        "name": "Rae Underwood"
+      }
+    ],
+    "greeting": "Hello, Hahn Rogers! You have 3 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "568807b136f03e2f86a9f83f",
+    "index": 3,
+    "guid": "e50694aa-2dce-49ff-80f8-a4612b2ee5f8",
+    "isActive": true,
+    "balance": "$2,149.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 35,
+    "eyeColor": "brown",
+    "name": "Blackwell Knox",
+    "gender": "male",
+    "company": "COMTREK",
+    "email": "blackwellknox@comtrek.com",
+    "phone": "+1 (953) 472-2490",
+    "address": "582 Woodbine Street, Shasta, American Samoa, 3691",
+    "about": "Laborum amet ex dolor tempor exercitation voluptate velit fugiat. Et exercitation anim aute consequat elit enim aliquip ad duis enim. Laborum voluptate Lorem reprehenderit in amet sint dolore. Ullamco id ullamco sunt sunt magna velit culpa non laborum. Voluptate commodo ut ad voluptate ipsum reprehenderit Lorem eu ullamco nostrud amet commodo. Non eu cillum culpa laborum mollit reprehenderit pariatur fugiat dolore.\r\n",
+    "registered": "2014-06-04T03:54:01 -01:00",
+    "latitude": 67.973511,
+    "longitude": 46.109158,
+    "tags": [
+      "duis",
+      "enim",
+      "id",
+      "nostrud",
+      "aliqua",
+      "nisi",
+      "culpa"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Goff Graves"
+      },
+      {
+        "id": 1,
+        "name": "Geneva Wise"
+      },
+      {
+        "id": 2,
+        "name": "Mariana Hardy"
+      }
+    ],
+    "greeting": "Hello, Blackwell Knox! You have 5 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "568807b1c0ae3517b7481567",
+    "index": 4,
+    "guid": "ad3964ba-a190-4179-b9de-0becef04f51e",
+    "isActive": true,
+    "balance": "$2,663.01",
+    "picture": "http://placehold.it/32x32",
+    "age": 33,
+    "eyeColor": "blue",
+    "name": "Nash Johnston",
+    "gender": "male",
+    "company": "GENMOM",
+    "email": "nashjohnston@genmom.com",
+    "phone": "+1 (956) 473-3261",
+    "address": "159 Boardwalk , Succasunna, South Dakota, 1375",
+    "about": "Incididunt ea aliqua magna sint officia mollit nisi laborum enim quis enim irure dolore excepteur. Culpa proident sit labore labore cupidatat cillum. Aliquip non commodo culpa et ullamco aute dolor qui do sint. Cillum in quis consequat elit. Occaecat nulla non commodo duis qui duis nisi consectetur sit ut in sint adipisicing. In consequat veniam aliqua do eu aliquip excepteur. Incididunt in nisi cillum ex minim qui excepteur laboris sunt nostrud.\r\n",
+    "registered": "2015-03-05T10:38:28 -00:00",
+    "latitude": 80.918303,
+    "longitude": -53.072557,
+    "tags": [
+      "anim",
+      "id",
+      "id",
+      "nisi",
+      "laborum",
+      "exercitation",
+      "sit"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Augusta Ferguson"
+      },
+      {
+        "id": 1,
+        "name": "Hayden Lancaster"
+      },
+      {
+        "id": 2,
+        "name": "Ursula Alford"
+      }
+    ],
+    "greeting": "Hello, Nash Johnston! You have 2 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "568807b1e7d9374081c2fe82",
+    "index": 5,
+    "guid": "f52cbec6-0c01-47d8-b47b-c0664036d546",
+    "isActive": false,
+    "balance": "$2,795.23",
+    "picture": "http://placehold.it/32x32",
+    "age": 24,
+    "eyeColor": "blue",
+    "name": "Ester Henson",
+    "gender": "female",
+    "company": "MICRONAUT",
+    "email": "esterhenson@micronaut.com",
+    "phone": "+1 (824) 510-2276",
+    "address": "755 Norwood Avenue, Convent, New York, 5029",
+    "about": "Cupidatat nostrud laborum aute commodo commodo est eiusmod sint irure et aliqua. Adipisicing proident officia commodo adipisicing Lorem sit et minim ea fugiat reprehenderit. Deserunt sint voluptate et duis voluptate incididunt proident dolore aliquip duis magna esse. Amet veniam est consectetur sunt nostrud veniam tempor. Labore occaecat sunt nisi nostrud cupidatat est dolor non sit reprehenderit eiusmod dolor irure. Non irure est nostrud sunt non sit quis veniam enim est duis dolore exercitation culpa. Labore elit do nostrud excepteur velit aliquip cillum aliquip tempor.\r\n",
+    "registered": "2014-08-29T05:13:49 -01:00",
+    "latitude": -22.513723,
+    "longitude": 167.370209,
+    "tags": [
+      "elit",
+      "occaecat",
+      "non",
+      "nostrud",
+      "ut",
+      "fugiat",
+      "eu"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Marisol Dalton"
+      },
+      {
+        "id": 1,
+        "name": "Lidia Ortega"
+      },
+      {
+        "id": 2,
+        "name": "Lloyd Tyson"
+      }
+    ],
+    "greeting": "Hello, Ester Henson! You have 9 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "568807b1c3da95602a37e872",
+    "index": 6,
+    "guid": "f437061b-eccd-4f2f-a8b1-d54d9100c7f5",
+    "isActive": true,
+    "balance": "$2,539.54",
+    "picture": "http://placehold.it/32x32",
+    "age": 33,
+    "eyeColor": "blue",
+    "name": "White Lamb",
+    "gender": "male",
+    "company": "EGYPTO",
+    "email": "whitelamb@egypto.com",
+    "phone": "+1 (964) 581-3702",
+    "address": "518 Havemeyer Street, Westerville, Guam, 2784",
+    "about": "Labore ad do magna officia. Aliqua ad ex duis nisi. Id sit incididunt in dolor consequat do officia consequat.\r\n",
+    "registered": "2015-12-12T03:41:26 -00:00",
+    "latitude": -45.815807,
+    "longitude": 101.682837,
+    "tags": [
+      "exercitation",
+      "eiusmod",
+      "eu",
+      "cupidatat",
+      "ipsum",
+      "cillum",
+      "deserunt"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jennings Price"
+      },
+      {
+        "id": 1,
+        "name": "Valencia Osborne"
+      },
+      {
+        "id": 2,
+        "name": "Francisca Mcintyre"
+      }
+    ],
+    "greeting": "Hello, White Lamb! You have 8 unread messages.",
+    "favoriteFruit": "banana"
+  }
 ]
